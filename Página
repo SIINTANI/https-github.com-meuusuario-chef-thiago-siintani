@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Thiago Siintani</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Chef Thiago Siintani</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#reservations">Reservas</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Página Inicial -->
+        <section id="home" class="tab-content">
+            <div class="banner">
+                <img src="path/to/banner.jpg" alt="Chef Thiago Siintani">
+                <h2>Bem-vindo ao mundo culinário do Chef Thiago Siintani</h2>
+            </div>
+            <div class="intro">
+                <p>Conheça o Chef Thiago Siintani e sua paixão pela culinária.</p>
+            </div>
+            <div class="highlights">
+                <div class="highlight-item">Serviço de Catering</div>
+                <div class="highlight-item">Aulas de Culinária</div>
+                <div class="highlight-item">Eventos Privados</div>
+            </div>
+            <div class="cta">
+                <button>Reservar Mesa</button>
+                <button>Agendar Evento</button>
+                <button>Inscreva-se na Newsletter</button>
+            </div>
+        </section>
+
+        <!-- Sobre -->
+        <section id="about" class="tab-content">
+            <h2>Sobre o Chef Thiago Siintani</h2>
+            <p>Biografia e trajetória do Chef.</p>
+            <div class="photos">
+                <img src="path/to/photo1.jpg" alt="Chef Thiago em ação">
+                <img src="path/to/photo2.jpg" alt="Prato emblemático">
+            </div>
+            <div class="mission-vision">
+                <h3>Missão</h3>
+                <p>Descrever a missão do Chef.</p>
+                <h3>Visão</h3>
+                <p>Descrever a visão do Chef.</p>
+            </div>
+        </section>
+
+        <!-- Menu -->
+        <section id="menu" class="tab-content">
+            <h2>Cardápio</h2>
+            <div class="menu-category">
+                <h3>Entradas</h3>
+                <div class="menu-item">
+                    <img src="path/to/starter.jpg" alt="Entrada">
+                    <p>Descrição da entrada - R$ Preço</p>
+                </div>
+                <!-- Adicionar mais itens de entrada -->
+            </div>
+            <div class="menu-category">
+                <h3>Pratos Principais</h3>
+                <div class="menu-item">
+                    <img src="path/to/main.jpg" alt="Prato Principal">
+                    <p>Descrição do prato principal - R$ Preço</p>
+                </div>
+                <!-- Adicionar mais itens de prato principal -->
+            </div>
+            <div class="menu-category">
+                <h3>Sobremesas</h3>
+                <div class="menu-item">
+                    <img src="path/to/dessert.jpg" alt="Sobremesa">
+                    <p>Descrição da sobremesa - R$ Preço</p>
+                </div>
+                <!-- Adicionar mais itens de sobremesa -->
+            </div>
+            <div class="menu-category">
+                <h3>Bebidas</h3>
+                <div class="menu-item">
+                    <img src="path/to/drink.jpg" alt="Bebida">
+                    <p>Descrição da bebida - R$ Preço</p>
+                </div>
+                <!-- Adicionar mais itens de bebida -->
+            </div>
+        </section>
+
+        <!-- Serviços -->
+        <section id="services" class="tab-content">
+            <h2>Serviços</h2>
+            <div class="service-item">
+                <h3>Catering</h3>
+                <p>Descrição dos serviços de catering.</p>
+            </div>
+            <div class="service-item">
+                <h3>Aulas de Culinária</h3>
+                <p>Descrição das aulas de culinária.</p>
+            </div>
+            <div class="service-item">
+                <h3>Eventos Privados</h3>
+                <p>Descrição dos serviços para eventos privados.</p>
+            </div>
+        </section>
+
+        <!-- Reservas -->
+        <section id="reservations" class="tab-content">
+            <h2>Reservas</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date">
+                <button type="submit">Reservar</button>
+            </form>
+            <p>Contato direto: telefone, e-mail</p>
+            <div class="calendar">
+                <!-- Calendário de disponibilidade -->
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section id="blog" class="tab-content">
+            <h2>Blog</h2>
+            <article>
+                <h3>Receita 1</h3>
+                <p>Detalhes da receita.</p>
+            </article>
+            <article>
+                <h3>Dicas de Culinária</h3>
+                <p>Conselhos e truques na cozinha.</p>
+            </article>
+            <article>
+                <h3>Notícias e Eventos</h3>
+                <p>Atualizações sobre eventos futuros.</p>
+            </article>
+        </section>
+
+        <!-- Contato -->
+        <section id="contact" class="tab-content">
+            <h2>Contato</h2>
+            <form>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p>Endereço, telefone, e-mail</p>
+            <div class="social-media">
+                <!-- Links para redes sociais -->
+            </div>
+        </section>
+
+        <!-- Galeria -->
+        <section id="gallery" class="tab-content">
+            <h2>Galeria</h2>
+            <div class="album">
+                <h3>Pratos</h3>
+                <img src="path/to/dish1.jpg" alt="Prato 1">
+                <img src="path/to/dish2.jpg" alt="Prato 2">
+                <!-- Adicionar mais fotos de pratos -->
+            </div>
+            <div class="album">
+                <h3>Eventos</h3>
+                <img src="path/to/event1.jpg" alt="Evento 1">
+                <img src="path/to/event2.jpg" alt="Evento 2">
+                <!-- Adicionar mais fotos de eventos -->
+            </div>
+            <div class="album">
+                <h3>Aulas de Culinária</h3>
+                <img src="path/to/class1.jpg" alt="Aula de Culinária 1">
+                <img src="path/to/class2.jpg" alt="Aula de Culinária 2">
+                <!-- Adicionar mais fotos de aulas de culinária -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Chef Thiago Siintani. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
